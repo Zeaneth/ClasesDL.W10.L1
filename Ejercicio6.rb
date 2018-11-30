@@ -34,6 +34,7 @@ class Student
     @@quantity += 1
   end
 
+  # Por qué tengo que definir @@quantity en un método para que me funcione el módulo Attendance?
   def self.quantity
     @@quantity
   end
